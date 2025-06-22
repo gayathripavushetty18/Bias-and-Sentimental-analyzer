@@ -1,0 +1,12 @@
+streamlit
+pytesseract
+Pillow
+altair
+pandas
+
+# Azure AI SDK and dependencies
+azure-core
+azure-ai-inference
+
+# Optional: to manage environment variables (if using .env)
+python-dotenv
