@@ -111,4 +111,7 @@ def calculate_bias_model_accuracy(test_csv_path):
 # -------------------- Main --------------------
 if __name__ == "__main__":
     test_csv = "E:/Summer Internship/bias_dataset_final.csv"
+
+    calculate_bias_model_accuracy(test_csv)
+
     calculate_bias_model_accuracy(test_csv)

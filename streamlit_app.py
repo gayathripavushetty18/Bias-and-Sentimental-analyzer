@@ -12,7 +12,6 @@ import pandas as pd
 import biased_modell  # your module with zero-shot, sentiment funcs
 
 # GitHub Token and Azure client setup
-# GITHUB_TOKEN = "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"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 if not GITHUB_TOKEN:
@@ -95,4 +94,5 @@ if st.button("Analyze"):
 
                 st.markdown(f"*Predicted Bias:* {zero_shot.get('Bias_label', 'Unknown')}")
             else:
+                st.write("No bias scores available.")
                 st.write("No bias scores available.")
